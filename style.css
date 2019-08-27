@@ -1,1 +1,35 @@
-/*Personal Web Page Style Sheet */
+/*Personal Web Page Style Sheet
+color palette 
+darks #007B46 #004427
+mid #12AA69
+lights #45BD89 #9DE4C5
+*/
+body{background-color: #45BD89;
+        color: #007B46;
+        font-family: Arial, sans-serif;
+}
+
+h1{font-family: Arial, sans-serif;
+    font-style: italic;
+    color: #004427;
+    
+}
+
+ul{list-style-type: circle;
+    
+}
+
+.table {float: left;
+    width: 50%;
+    padding-top: 100;
+}
+
+.row:after{content: "";
+  display: table;
+  clear: both;
+}
+
+/*pseudo class stuff!*/
+a:hover{color:#004427}
+a:visited{color:#9DE4C5}
+a:link{color:#007B46}
