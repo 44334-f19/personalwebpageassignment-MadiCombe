@@ -4,7 +4,7 @@ darks #007B46 #004427
 mid #12AA69
 lights #45BD89 #9DE4C5
 */
-body{background-color: #45BD89;
+body{background-color: #9DE4C5;
         color: #007B46;
         font-family: Arial, sans-serif;
 }
@@ -31,5 +31,5 @@ ul{list-style-type: circle;
 
 /*pseudo class stuff!*/
 a:hover{color:#004427}
-a:visited{color:#9DE4C5}
+a:visited{color:#12AA69}
 a:link{color:#007B46}
